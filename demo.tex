@@ -1,44 +1,64 @@
-% This is a simple sample document.  For more complicated documents take a look in the exercise tab. Note that everything that comes after a % symbol is treated as comment and ignored when the code is compiled.
+\documentclass[letterpaper,10pt]{article}
 
-\documentclass{article} % \documentclass{} is the first command in any LaTeX code.  It is used to define what kind of document you are creating such as an article or a book, and begins the document preamble
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
 
-\usepackage{amsmath} % \usepackage is a command that allows you to add functionality to your LaTeX code
+\begin{document}
 
-\title{Class Example} % Sets article title
-\author{My Name} % Sets authors name
-\date{\today} % Sets date for date compiled
+\pagestyle{empty} % No page number
 
-% The preamble ends with the command \begin{document}
-\begin{document} % All begin commands must be paired with an end command somewhere
-\maketitle % creates title using information in preamble (title, author, date)
+\begin{center}
+    {\LARGE \textbf{Jordyn N. Schnupp}} \\
+    Email: jor.schnupp@gmail.com \\
+    Phone: Please email for more information \\
+    Address: 123 Student Circle Dr.
+\end{center}
 
-\section{Hello World!} % creates a section
+\noindent
+Passionate and hardworking aspiring cybersecurity specialist looking for opportunities to grow in the cybersecurity field and work within a team whilst expanding my knowledge of the industry and obtaining new experiences.
 
-\textbf{Hello World!} Today I am learning \LaTeX. %notice how the command will end at the first non-alphabet charecter such as the . after \LaTeX
-\LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$ %$ tells LaTexX to compile as math
-. I can also give equations their own space:
-\begin{equation} % Creates an equation environment and is compiled as math
-  \gamma^2+\theta^2=\omega^2
-\end{equation}
-If I do not leave any blank lines \LaTeX{} will continue  this text without making it into a new paragraph.  Notice how there was no indentation in the text after equation (1).
-Also notice how even though I hit enter after that sentence and here $\downarrow$
-\LaTeX{} formats the sentence without any break.  Also   look  how      it   doesn't     matter          how    many  spaces     I put     between       my    words.
+\section*{Education}
 
-For a new essay I can leave a blank space in my code.
+\noindent
+\textbf{B.S., Computer Science} \\
+University of South Alabama; Mobile, AL \\
+August 2021 – May 2025 \\
+\begin{itemize}
+    \item Minor in Mathematics
+    \item Clubs: DayZero Cybersecurity Competition, Dance With South (Treasurer and Tech Support)
+\end{itemize}
 
-\section{Hello World!} % creates a section
-Hi there!
+\noindent
+\textbf{High School Diploma} \\
+Prattville High School; Prattville, AL \\
+August 2018 – May 2021 \\
+\begin{itemize}
+    \item AP Scholar
+\end{itemize}
 
-\section{Hello World!} % creates a section 
-I am going on
+\section*{Experience}
 
-\section{Hello World!} % creates a section
-And on 
-$$ 
-x^2 + y^2 = z62
-$$
+\noindent
+\textbf{Resident Assistant (RA)} \\
+Mobile, AL, August 2022 – Current
+\begin{itemize}
+    \item Handles and is entrusted with confidential information.
+    \item Thoroughly monitors and handles emergencies efficiently.
+    \item Communicates with individuals daily and works closely with a team of 14, primarily creating event proposals and team management.
+    \item Keeps track of over 1000 individual items in Microsoft Office.
+    \item Awarded “Best Rookie RA of the Year” in the first year of employment.
+\end{itemize}
 
-\section{Bye World!} % creates a section
-And on.....
+\noindent
+\textbf{The Foster Care Association} \\
+Mobile, AL, August 2021 – December 2022
+\begin{itemize}
+    \item Led and managed a group of five, primarily made all points of contact and coordinated the events, set up meetings, started the meetings, and took notes on each meeting.
+    \item Successfully raised over $100 through various forms of online and in-person fundraising and created 20+ bags filled with supplies for foster children.
+\end{itemize}
 
-\end{document} % This is the end of the document
+\section*{Skills}
+
+\noindent
+JavaScript, C++, Python, HTML, SQL, Microsoft Office Suite, GitHub, Visual Studio, Windows OS, implementation and development of detail-oriented software, proficient communicator and presenter, multitasking, risk analysis, team-oriented
+
+\end{document}
